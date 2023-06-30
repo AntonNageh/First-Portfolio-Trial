@@ -1,0 +1,69 @@
+.App{
+    background-color: rgba(10, 25,47, 1);
+    height: 100vh;
+    width: 100vw;
+    font-weight: 700;
+    font-size: large;
+}
+.z {
+    z-index: 10;
+}
+.nav-link{
+    color: white;
+    margin-inline: 12px;
+}
+.nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: 13%;
+}
+
+.navbtn, .butn {
+    color: rgba(0, 140,129, 1);
+    border-color: rgba(0, 140,129, 1);
+    background-color: transparent;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.navbtn:hover,
+img:hover,
+.butn:hover{
+    filter: drop-shadow(0 0 0.5rem rgba(0, 140,129, 1));
+}
+.butn {
+    margin-top: 40px;
+}
+span {
+    color: rgba(0, 140,129, 1);
+}
+h1,h5 {
+color: white;
+}
+h3 {
+    color: rgba(0, 140,129, 1);
+}
+h5 {
+    font-weight: lighter;
+    line-height: 26px;
+}
+.section1 {
+    margin-left: 10vw !important;
+    margin-top: -10vh;
+}
+.show{
+    display: block;
+}
+@media all and (max-width:992px) {
+    .navbar-collapse{
+        padding: 10px;
+        font-weight: 600;
+        transform: translate(-5%,-60%) !important;
+
+        }
+    .section1 {
+        margin-top: -6vh;
+        width: fit-content;
+    }
+}
